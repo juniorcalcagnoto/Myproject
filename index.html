@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link href="../Imagens/TI.jpeg">
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site Pessoal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#sobre-mim">Sobre Mim</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section 
+            id="sobre-mim">
+            
+            <img id="img" src="../Imagens/ori.jpg">
+            <h2 id="sm">Quem eu sou?</h2>
+            <p id="textoOri">Meu nome é <strong>Orivaldo Calcagnoto Junior</strong> , sou Tecnico em informatica Pleno. Tenho paixão pelo meus filhos, meu hobby é academia e  busco constantemente aprimorar minhas habilidades para enfrentar novos desafios.</p>
+        </section>
+
+        <section id="formacao">
+          
+            <h2>Formação</h2>
+            <p>Sou formado em curso tecnico de hardware, participei de diversos cursos web.</p>
+            <p>Atualmente estou cursando analise e desenvolvimento de sistemas e outros cursos para aprimorar meu conhecimento.</p>
+        </section>
+
+        <section id="portfolio">
+            <h2>Portfólio</h2>
+            <p>Visite meu portfólio no <a href="https:junin.com.br">Site Educacional</a> para ver alguns dos meus trabalhos mais recentes.</p>
+        </section>
+
+        <section  id="contato">
+            <h2 id="name">Contato</h2>
+            <form action="#" method="POST">
+                <label  for="nome">Nome:</label>
+                <input placeholder="Digite seu nome" type="text" id="nome" name="nome" required>
+
+                <label for="email">Email:</label>
+                <input placeholder="Digite seu e-mail"  type="email" id="email" name="email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea 
+                placeholder="Digite uma mensagem"
+                id="mensagem" name="mensagem" rows="5" required></textarea>
+
+                <button id="botao" type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 - Orivaldo Calcagnoto Junior</p>
+    </footer>
+</body>
+</html>
